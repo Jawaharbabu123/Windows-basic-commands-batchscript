@@ -27,7 +27,8 @@ Create a directory named "MyLab" on the desktop.
 ~~~
 mkdir %userprofile%\Desktop\MyLab
 ~~~
-![alt text](<Screenshot 2025-05-15 152331.png>)
+![image](https://github.com/user-attachments/assets/d11e2311-8133-4d7c-9e10-d398ed57159d)
+
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
@@ -35,11 +36,13 @@ Change to the "MyLab" directory and create an empty text file named "MyFile.txt"
 ~~~
 cd %userprofile%\Desktop\MyLab
 ~~~
-![alt text](<Screenshot 2025-05-15 152341.png>)
+![image](https://github.com/user-attachments/assets/364ed0e7-4635-4534-ab77-e81b31c62cf3)
+
 ~~~
 type nul > MyFile.txt
 ~~~
-![alt text](<Screenshot 2025-05-15 152351.png>)
+![image](https://github.com/user-attachments/assets/7daf850a-c4bf-4bc7-875f-419b59436df9)
+
 
 List the contents of the "MyLab" directory.
 
@@ -48,7 +51,8 @@ List the contents of the "MyLab" directory.
 ~~~
 dir %userprofile%\Desktop\MyLab
 ~~~
-![alt text](<Screenshot 2025-05-15 152402.png>)
+![image](https://github.com/user-attachments/assets/59f3ec04-3022-42d4-a710-7870dd0c5c23)
+
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
@@ -56,11 +60,13 @@ Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 ~~~
 mkdir %userprofile%\Desktop\Backup
 ~~~
-![alt text](<Screenshot 2025-05-15 152429.png>)
+![image](https://github.com/user-attachments/assets/20696441-da77-4b0f-bf3a-06f29ed716e9)
+
 ~~~
 copy MyFile.txt %userprofile%\Desktop\Backup
 ~~~
-![alt text](<Screenshot 2025-05-15 152437.png>)
+![image](https://github.com/user-attachments/assets/4728c442-4e62-4ea7-9638-ae6d9b721673)
+
 
 Move the "MyLab" directory to the "Documents" folder.
 
@@ -69,8 +75,8 @@ Move the "MyLab" directory to the "Documents" folder.
 mkdir %userprofile%\Desktop\Documents
 move MyLab Documents
 ~~~
+![image](https://github.com/user-attachments/assets/0e80d2b2-da5e-44de-b6b7-0c3e4f1db1a0)
 
-![alt text](<Screenshot 2025-05-15 152447.png>)
 
 
 
@@ -83,7 +89,8 @@ mkdir %userprofile%\Desktop\DocBackup
 copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
 echo Backup completed successfully!
 ~~~
-![alt text](<Screenshot 2025-05-15 152458.png>)
+![Uploading image.png…]()
+
 
 ## COMMAND:
 ~~~
